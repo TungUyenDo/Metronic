@@ -1,0 +1,80 @@
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 10px 0 0;
+}
+
+.ac_select_languages {
+    position: relative;
+    .selected {
+        color: #8ea3b6;
+        &:hover {
+            color: #838e98;
+        }
+    }
+    .open>a {
+        background: #fff;
+        color: #3c8dbc;
+    }
+    &.open {
+        a {
+            color: #3c8dbc;
+        }
+    }
+    .dropdown-menu {
+        margin: 0;
+        input {
+            display: none
+        }
+        label {
+            margin-bottom: 0;
+            width: 100%;
+            padding: 10px 12px;
+            cursor: pointer;
+            &:hover {
+                background-color: #337ab7;
+                color: #fff;
+            }
+        }
+        .active {
+            background-color: #337ab7;
+            color: #fff;
+        }
+    }
+}
+
+.dashboard-stat {
+    .fa {
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        opacity: 0.3 !important;
+    }
+    &:hover {
+        .fa {
+            font-size: 125px;
+        }
+    }
+}
+
+.dataTables_filter,
+.dataTables_paginate {
+    text-align: right
+}
+
+.ac_custom_table_company {
+    .dataTables_wrapper .dt-buttons {
+        margin-top: -52px !important;
+    }
+    .dt-button {
+        margin-right: 5px;
+    }
+}
+
+.page-breadcrumb {
+    display: inline-block;
+    float: right;
+    padding: 19px 0;
+    .fa {
+        font-size: 12px;
+        color: lightslategrey;
+    }
+}
