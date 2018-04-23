@@ -1,267 +1,209 @@
 
     
-    <div class="page-wrapper-row full-height">
-        <div class="page-wrapper-middle">
-            <!-- BEGIN CONTAINER -->
-            <div class="page-container">
-                <!-- BEGIN CONTENT -->
-                <div class="page-content-wrapper">
-                    <!-- BEGIN CONTENT BODY -->
-                    <!-- BEGIN PAGE HEAD-->
-                    <div class="page-head">
-                        <div class="container-fluid">
-                            <!-- BEGIN PAGE TITLE -->
-                            <div class="page-title">
-                                <h1>Dashboard</h1>
+    
+        
+           
+            <!-- begin::Body -->
+            <div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop 	m-container m-container--responsive m-container--xxl m-page__container m-body">
+                <div class="m-grid__item m-grid__item--fluid m-wrapper">
+                    <!-- BEGIN: Subheader -->
+                    <div class="m-subheader ">
+                        <div class="d-flex align-items-center">
+                            <div class="mr-auto">
+                                <h3 class="m-subheader__title ">
+                                    Dashboard
+                                </h3>
                             </div>
-                            <!-- END PAGE TITLE -->
-
+                           
                         </div>
                     </div>
-                    <!-- END PAGE HEAD-->
-                    <!-- BEGIN PAGE CONTENT BODY -->
-                    <div class="page-content">
-                        <div class="container-fluid">
-                          
-                            <!-- BEGIN PAGE CONTENT INNER -->
-                            <div class="page-content-inner">
-                                <div class="mt-content-body">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a class="dashboard-stat dashboard-stat-v2 blue" href="#">
-                                                <div class="visual">
-                                                    <i class="fa fa-users"></i>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="number">
-                                                        <span data-counter="counterup" data-value="1349">1349</span>
-                                                    </div>
-                                                    <div class="desc"> User </div>
-                                                </div>
-                                            </a>
+                    <!-- END: Subheader -->
+                    <div class="m-content">
+                       
+                     
+                        <!--Begin::Section-->
+                        <div class="row">
+                           
+                            <div class="col-xl-4">
+                                <!--begin:: Widgets/Sales States-->
+                                <div class="m-portlet m-portlet--full-height ">
+                                    <div class="m-portlet__head">
+                                        <div class="m-portlet__head-caption">
+                                            <div class="m-portlet__head-title">
+                                                <h3 class="m-portlet__head-text">
+                                                    Sales Stats
+                                                </h3>
+                                            </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a class="dashboard-stat dashboard-stat-v2 red" href="#">
-                                                <div class="visual">
-                                                    <i class="fa fa-user-plus"></i>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="number">
-                                                        <span data-counter="counterup" data-value="12,5">12,5</span>
-                                                    </div>
-                                                    <div class="desc">Consultant </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a class="dashboard-stat dashboard-stat-v2 yellow" href="#">
-                                                <div class="visual">
-                                                    <i class="fa fa-life-ring"></i>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="number">
-                                                        <span data-counter="counterup" data-value="549">549</span>
-                                                    </div>
-                                                    <div class="desc"> Compliance </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a class="dashboard-stat dashboard-stat-v2 green" href="#">
-                                                <div class="visual">
-                                                    <i class="fa fa-globe"></i>
-                                                </div>
-                                                <div class="details">
-                                                    <div class="number">
-                                                        <span data-counter="counterup" data-value="89">89</span>
-                                                    </div>
-                                                    <div class="desc"> Compliance Project </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="portlet light ">
-                                                <div class="portlet-title">
-                                                    <div class="caption caption-md">
-                                                        <i class="icon-bar-chart font-dark hide"></i>
-                                                        <span class="caption-subject font-green-steel bold uppercase">Newest Consultant</span>
-                                                    </div>
-                                                    <!-- <div class="actions">
-                                                        <div class="btn-group btn-group-devided" data-toggle="buttons">
-                                                            <label class="btn btn-transparent blue-oleo btn-no-border btn-outline btn-circle btn-sm active">
-                                                                <input type="radio" name="options" class="toggle" id="option1">Today</label>
-                                                            <label class="btn btn-transparent blue-oleo btn-no-border btn-outline btn-circle btn-sm">
-                                                                <input type="radio" name="options" class="toggle" id="option2">Week</label>
-                                                            <label class="btn btn-transparent blue-oleo btn-no-border btn-outline btn-circle btn-sm">
-                                                                <input type="radio" name="options" class="toggle" id="option2">Month</label>
-                                                        </div>
-                                                    </div> -->
-                                                </div>
-                                                <div class="portlet-body">
-                                                    <div class="row number-stats margin-bottom-30">
-                                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                                            <div class="stat-left">
-                                                                <div class="stat-chart">
-                                                                    <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
-                                                                    <div id="sparkline_bar"></div>
-                                                                </div>
-                                                                <div class="stat-number">
-                                                                    <div class="title"> Total </div>
-                                                                    <div class="number"> 2460 </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                                            <div class="stat-right">
-                                                                <div class="stat-chart">
-                                                                    <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
-                                                                    <div id="sparkline_bar2"></div>
-                                                                </div>
-                                                                <div class="stat-number">
-                                                                    <div class="title"> New </div>
-                                                                    <div class="number"> 719 </div>
+                                        <div class="m-portlet__head-tools">
+                                            <ul class="m-portlet__nav">
+                                                <li class="m-portlet__nav-item m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push"
+                                                    m-dropdown-toggle="hover" aria-expanded="true">
+                                                    <a href="#" class="m-portlet__nav-link m-portlet__nav-link--icon m-portlet__nav-link--icon-xl">
+                                                        <i class="fa fa-genderless m--font-brand"></i>
+                                                    </a>
+                                                    <div class="m-dropdown__wrapper">
+                                                        <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust" style="left: auto; right: 17px;"></span>
+                                                        <div class="m-dropdown__inner">
+                                                            <div class="m-dropdown__body">
+                                                                <div class="m-dropdown__content">
+                                                                    <ul class="m-nav">
+                                                                        <li class="m-nav__item">
+                                                                            <a href="" class="m-nav__link">
+                                                                                <i class="m-nav__link-icon flaticon-share"></i>
+                                                                                <span class="m-nav__link-text">
+                                                                                    Activity
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="m-nav__item">
+                                                                            <a href="" class="m-nav__link">
+                                                                                <i class="m-nav__link-icon flaticon-chat-1"></i>
+                                                                                <span class="m-nav__link-text">
+                                                                                    Messages
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="m-nav__item">
+                                                                            <a href="" class="m-nav__link">
+                                                                                <i class="m-nav__link-icon flaticon-info"></i>
+                                                                                <span class="m-nav__link-text">
+                                                                                    FAQ
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="m-nav__item">
+                                                                            <a href="" class="m-nav__link">
+                                                                                <i class="m-nav__link-icon flaticon-lifebuoy"></i>
+                                                                                <span class="m-nav__link-text">
+                                                                                    Support
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="table-scrollable table-scrollable-borderless">
-                                                        <table class="table table-hover table-light">
-                                                            <thead>
-                                                                <tr class="uppercase">
-                                                                    <th colspan="2"> MEMBER </th>
-                                                                    <th> Project Compliance </th>
-                                                                    <th> CASES </th>
-                                                                    <th> CLOSED </th>
-                                                                    <th> RATE </th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tr>
-                                                                <td class="fit">
-                                                                    <img class="user-pic rounded" src="./origin/assets/pages/media/users/avatar4.jpg"> </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="primary-link">Brain</a>
-                                                                </td>
-                                                                <td> 345 </td>
-                                                                <td> 45 </td>
-                                                                <td> 124 </td>
-                                                                <td>
-                                                                    <span class="bold theme-font">80%</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="fit">
-                                                                    <img class="user-pic rounded" src="./origin/assets/pages/media/users/avatar5.jpg"> </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="primary-link">Nick</a>
-                                                                </td>
-                                                                <td> 560 </td>
-                                                                <td> 12 </td>
-                                                                <td> 24 </td>
-                                                                <td>
-                                                                    <span class="bold theme-font">67%</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="fit">
-                                                                    <img class="user-pic rounded" src="./origin/assets/pages/media/users/avatar6.jpg"> </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="primary-link">Tim</a>
-                                                                </td>
-                                                                <td> 1,345 </td>
-                                                                <td> 450 </td>
-                                                                <td> 46 </td>
-                                                                <td>
-                                                                    <span class="bold theme-font">98%</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="fit">
-                                                                    <img class="user-pic rounded" src="./origin/assets/pages/media/users/avatar7.jpg"> </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="primary-link">Tom</a>
-                                                                </td>
-                                                                <td> 645 </td>
-                                                                <td> 50 </td>
-                                                                <td> 89 </td>
-                                                                <td>
-                                                                    <span class="bold theme-font">58%</span>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="m-portlet__body">
+                                        <div class="m-widget6">
+                                            <div class="m-widget6__head">
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__caption">
+                                                        Sceduled
+                                                    </span>
+                                                    <span class="m-widget6__caption">
+                                                        Count
+                                                    </span>
+                                                    <span class="m-widget6__caption m--align-right">
+                                                        Amount
+                                                    </span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="portlet light">
-                                                <!-- <h3 class="portlet-title">Newest Compliance</h3> -->
-                                                <div class="portlet-title">
-                                                    <div class="caption caption-md">
-                                                        <i class="icon-bar-chart font-dark hide"></i>
-                                                        <span class="caption-subject font-green-steel bold uppercase">Newest Compliance</span>
-                                                    </div>
+                                            <div class="m-widget6__body">
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        16/13/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        67
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $14,740
+                                                    </span>
                                                 </div>
-                                                <!--<div class="box-tools pull-right">
-                                                    <button type="button" class="btn btn-box-tool" data-widget="collapse">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-box-tool" data-widget="remove">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </div> -->
-                                                <!-- /.box-header -->
-                                                <div class="box-body" style="display: block;">
-                                                    <div class="table-responsive">
-                                                        <table class="table table-hover table-light">
-                                                            <thead>
-                                                                <tr class="uppercase">
-                                                                    <th>Compliance Name</th>
-                                                                    <th>Total Control</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>TT32</td>
-                                                                    <td>129</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>31/2015/TT-NHNN</td>
-                                                                    <td>277</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>ISO 27001:2013</td>
-                                                                    <td>164</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>PCI-DSS</td>
-                                                                    <td>273</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <!-- /.table-responsive -->
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        02/28/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        120
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $11,002
+                                                    </span>
                                                 </div>
-
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        03/06/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        32
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $10,900
+                                                    </span>
+                                                </div>
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        10/21/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        130
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $14,740
+                                                    </span>
+                                                </div>
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        01/02/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        5
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $18,540
+                                                    </span>
+                                                </div>
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        03/06/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        32
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $10,900
+                                                    </span>
+                                                </div>
+                                                <div class="m-widget6__item">
+                                                    <span class="m-widget6__text">
+                                                        12/31/17
+                                                    </span>
+                                                    <span class="m-widget6__text">
+                                                        201
+                                                    </span>
+                                                    <span class="m-widget6__text m--align-right m--font-boldest m--font-brand">
+                                                        $25,609
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="m-widget6__foot">
+                                                <div class="m-widget6__action m--align-right">
+                                                    <button type="button" class="btn m-btn--pill btn-secondary m-btn m-btn--hover-brand m-btn--custom">
+                                                        Export
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
+                                <!--end:: Widgets/Sales States-->
                             </div>
-                            <!-- END PAGE CONTENT INNER -->
                         </div>
+                        <!--End::Section-->
                     </div>
-                    <!-- END PAGE CONTENT BODY -->
-                    <!-- END CONTENT BODY -->
                 </div>
-                <!-- END CONTENT -->
-
             </div>
-            <!-- END CONTAINER -->
+            <!-- end::Body -->
+           
         </div>
-    </div>
+        <!-- end:: Page -->
+      
+   
     

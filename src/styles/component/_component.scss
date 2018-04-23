@@ -2,79 +2,33 @@
     margin: 10px 0 0;
 }
 
-.ac_select_languages {
-    position: relative;
-    .selected {
-        color: #8ea3b6;
-        &:hover {
-            color: #838e98;
-        }
+.m-header-menu .m-menu__nav>.m-menu__item .m-menu__submenu>.m-menu__subnav .m-menu__content .m-menu__inner>.m-menu__item {
+    padding-top: 10px !important;
+}
+
+@media (min-width: 1025px) {
+    .m-header-menu .m-menu__nav>.m-menu__item .m-menu__submenu {
+        width: 275px !important;
+        margin: 0 auto;
+        left: auto;
+        right: auto;
     }
-    .open>a {
-        background: #fff;
-        color: #3c8dbc;
-    }
-    &.open {
-        a {
-            color: #3c8dbc;
-        }
-    }
-    .dropdown-menu {
-        margin: 0;
-        input {
-            display: none
-        }
-        label {
-            margin-bottom: 0;
-            width: 100%;
-            padding: 10px 12px;
-            cursor: pointer;
-            &:hover {
-                background-color: #337ab7;
-                color: #fff;
-            }
-        }
-        .active {
-            background-color: #337ab7;
-            color: #fff;
-        }
+    .m-header-menu .m-menu__nav>.m-menu__item .m-menu__submenu>.m-menu__subnav .m-menu__content .m-menu__inner {
+        padding: 10px 0;
     }
 }
 
-.dashboard-stat {
-    .fa {
-        -webkit-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear;
-        opacity: 0.3 !important;
+.m-footer {
+    line-height: 60px;
+    @media (max-width: 1025px) {
+        text-align: center
     }
-    &:hover {
-        .fa {
-            font-size: 125px;
-        }
+    @media (max-width: 500px) {
+        line-height: normal
     }
 }
 
-.dataTables_filter,
-.dataTables_paginate {
-    text-align: right
-}
-
-.ac_custom_table_company {
-    .dataTables_wrapper .dt-buttons {
-        margin-top: -52px !important;
-    }
-    .dt-button {
-        margin-right: 5px;
-    }
-}
-
-.page-breadcrumb {
-    display: inline-block;
-    float: right;
-    padding: 19px 0;
-    .fa {
-        font-size: 12px;
-        color: lightslategrey;
-    }
+.m-dropdown.m-dropdown--align-center.m-dropdown--large .m-dropdown__wrapper {
+    width: 380px;
+    margin-left: -225px;
 }
