@@ -50,14 +50,14 @@ module.exports = {
 			filename: "styles/style.bundle.css"
 		}), 
 
-		//for assets/images
-		new CopyWebpackPlugin([
-			{ from: './src/assets', to:'./assets'},
-		]),
-		
-		//for assets/images
+		//for source origin
 		new CopyWebpackPlugin([
 			{ from: './src/origin', to:'./origin'},
+		]),
+
+		//for favicon
+		new CopyWebpackPlugin([
+			{ from: './src/favicon.ico', to:'./favicon.ico'},
 		]),
 		new HtmlBeautifyPlugin(),
 		new HtmlWebpackPlugin({
